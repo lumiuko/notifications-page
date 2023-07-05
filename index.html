@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Notifications page</title>
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <h1 class="header-title">Notifications</h1>
+        <div class="header-badge" id="count">3</div>
+        <button class="header-btn" id="mark-all-read">Mark all as read</button>
+      </header>
+      <div class="notifications">
+        <div class="notifications-item unread">
+          <img class="item-image" src="/avatar-mark-webber.webp" alt="Mark Webber" />
+          <div class="item-content">
+            <p class="item-text">
+              <a href="#" class="item-user">Mark Webber</a>
+              <span>reacted to your recent post</span>
+              <a href="#" class="item-link">My first tournament today!</a>
+              <span class="item-icon"></span>
+            </p>
+            <p class="item-date">1m ago</p>
+          </div>
+        </div>
+        <div class="notifications-item unread">
+          <img class="item-image" src="/avatar-angela-gray.webp" alt="Angela Gray" />
+          <div class="item-content">
+            <p class="item-text">
+              <a href="#" class="item-user">Angela Gray</a>
+              <span>followed you</span>
+              <span class="item-icon"></span>
+            </p>
+            <p class="item-date">5m ago</p>
+          </div>
+        </div>
+        <div class="notifications-item unread">
+          <img class="item-image" src="/avatar-jacob-thompson.webp" alt="Jacob Thompson" />
+          <div class="item-content">
+            <p class="item-text">
+              <a href="#" class="item-user">Jacob Thompson</a>
+              <span>has joined your group</span>
+              <a href="#" class="item-link highlight">Chess Club</a>
+              <span class="item-icon"></span>
+            </p>
+            <p class="item-date">1 day ago</p>
+          </div>
+        </div>
+        <div class="notifications-item">
+          <img class="item-image" src="/avatar-rizky-hasanuddin.webp" alt="Rizky Hasanuddin" />
+          <div class="item-content">
+            <p class="item-text">
+              <a href="#" class="item-user">Rizky Hasanuddin</a>
+              <span>sent you a private message</span>
+              <span class="item-icon"></span>
+            </p>
+            <p class="item-date">5 days ago</p>
+            <a href="#" class="item-body">Hello, thanks for setting up the Chess Club. I’ve been a member for a few weeks now and I’m already having lots of fun and improving my game.</a>
+          </div>
+        </div>
+        <div class="notifications-item">
+          <img class="item-image" src="/avatar-kimberly-smith.webp" alt="Kimberly Smith" />
+          <div class="item-content">
+            <p class="item-text">
+              <a href="#" class="item-user">Kimberly Smith</a>
+              <span>commented on your picture</span>
+              <span class="item-icon"></span>
+            </p>
+            <p class="item-date">1 week ago</p>
+          </div>
+          <a href="#" class="item-image-right" aria-label="Chess page">
+            <img src="/image-chess.webp" alt="Chess" aria-hidden="true" />
+          </a>
+        </div>
+        <div class="notifications-item">
+          <img class="item-image" src="/avatar-nathan-peterson.webp" alt="Nathan Peterson" />
+          <div class="item-content">
+            <p class="item-text">
+              <a href="#" class="item-user">Nathan Peterson</a>
+              <span>reacted to your recent post</span>
+              <a href="#" class="item-link">5 end-game strategies to increase your win rate</a>
+              <span class="item-icon"></span>
+            </p>
+            <p class="item-date">2 weeks ago</p>
+          </div>
+        </div>
+        <div class="notifications-item">
+          <img class="item-image" src="/avatar-anna-kim.webp" alt="Anna Kim" />
+          <div class="item-content">
+            <p class="item-text">
+              <a href="#" class="item-user">Anna Kim</a>
+              <span>left the group</span>
+              <a href="#" class="item-link highlight">Chess Club</a>
+              <span class="item-icon"></span>
+            </p>
+            <p class="item-date">2 weeks ago</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
