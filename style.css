@@ -200,6 +200,10 @@ a:hover {
     line-height: 1.875rem;
   }
 
+  .header-badge {
+    margin-left: 0.75rem;
+  }
+
   .notifications {
     margin-top: 2rem;
   }
